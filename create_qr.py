@@ -7,7 +7,6 @@ def generate_custom_qr(url, output_file, target_size, fill_color_str, eye_color_
     """
     Generate a customized QR code with a logo, rounded modules,
     custom colors and a target output size.
-    (THIS FUNCTION REMAINS UNCHANGED IN LOGIC)
     """
     
     # --- 0. Color configuration and constants ---
@@ -209,3 +208,4 @@ if __name__ == "__main__":
         eye_color_str=eye_color_input,
         logo_path=logo_path_input
     )
+
